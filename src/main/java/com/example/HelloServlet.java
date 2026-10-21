@@ -20,7 +20,7 @@ public class HelloServlet extends HttpServlet {
         response.getWriter().println(
             "<html><head><title>AWS CI/CD Project</title></head>" +
             "<body style='font-family:Arial;text-align:center;margin-top:80px;'>" +
-            "<h1>Hello from our AWS CI/CD Pipeline!</h1>" +
+            "<h1>Hello from our Automated AWS CI/CD Pipeline!</h1>" +
             "<p>Built with Jenkins and Maven, ready for Tomcat deployment.</p>" +
             "</body></html>"
         );
